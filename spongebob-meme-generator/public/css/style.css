@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+div.container{
+    margin: auto;
+    width: 50%;
+}
+
+div.raw-container {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+div.converted-container {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
