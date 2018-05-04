@@ -1,18 +1,23 @@
 <% include partials/header %>
-<h1><%= title %></h1>
+<h1 class="alert alert-primary"><%= title %></h1>
     <div class="container">
         <div class="raw-container">
             <form>
                 <label>Enter Text:</label>
-                <input type="text" id="rawTextInput">
+                <!-- <input type="text" id="rawTextInput"> -->
+                <textarea id="rawTextInput" cols="50" rows="5"></textarea>
                 <button id="convertTextBtn">Convert!</button>
                 <br>
             </form>
         </div>
         <div class="converted-container">
             <label>Converted Text:</label>
-            <input type="text" id="convertedTextInput">
-            <button id="resetFieldsBtn">Reset Fields</button>
+            <!-- <input type="text" id="convertedTextInput"> -->
+            <textarea id="convertedTextInput" cols="50" rows="5" readonly></textarea>
+            <div>
+                <button id="copyBtn">Copy</button>
+                <button id="resetFieldsBtn">Reset</button>
+            </div>
         </div>
     </div>
 <% include partials/footer %>

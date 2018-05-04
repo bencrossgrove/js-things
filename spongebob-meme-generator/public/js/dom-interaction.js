@@ -8,4 +8,11 @@ $(document).ready(function(){
         $('#rawTextInput').val('');
         $('#convertedTextInput').val('');
     });
+    $('#copyBtn').on('click', function() {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($('#convertedTextInput').val()).select();
+        document.execCommand("copy");
+        $temp.remove();
+    });
 });

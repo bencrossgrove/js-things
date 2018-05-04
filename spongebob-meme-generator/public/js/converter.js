@@ -5,4 +5,3 @@ const converter = function(input) {
     }
     return newString.join('');
 };
-

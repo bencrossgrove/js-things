@@ -2,9 +2,13 @@ h1 {
     text-align: center;
 }
 
+button {
+    margin-top: 12px;
+}
+
 div.container{
     margin: auto;
-    width: 50%;
+    width: 90vw;
 }
 
 div.raw-container {
@@ -17,4 +21,10 @@ div.converted-container {
     text-align: center;
     margin: auto;
     width: 50%;
+}
+
+h1.alert.alert-primary {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
